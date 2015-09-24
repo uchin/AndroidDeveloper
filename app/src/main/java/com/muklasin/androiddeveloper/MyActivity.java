@@ -2,14 +2,14 @@ package com.muklasin.androiddeveloper;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
 
-public class MyActivity extends AppCompatActivity {
+public class MyActivity extends ActionBarActivity {
     public final static String EXTRA_MESSAGE = "com.muklasin.androiddeveloper.MESSAGE";
 
     /** Called when the user clicks the Send button */
