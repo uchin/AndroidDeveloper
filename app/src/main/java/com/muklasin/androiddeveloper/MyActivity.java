@@ -5,6 +5,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/** Called when the user clicks the Send button */
+public void sendMessage(View view) {
+        // Do something in response to button
+        }
+
 public class MyActivity extends AppCompatActivity {
 
     @Override
