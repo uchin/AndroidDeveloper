@@ -7,7 +7,7 @@ import android.view.MenuItem;
 
 /** Called when the user clicks the Send button */
 public void sendMessage(View view) {
-        // Do something in response to button
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
         }
 
 public class MyActivity extends AppCompatActivity {
