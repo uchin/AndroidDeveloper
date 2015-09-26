@@ -15,4 +15,12 @@
         android:text="@string/button_send"
         android:onClick="sendMessage" />
 
+    <Button
+        android:id="@+id/like"
+        android:layout_height="wrap_content"
+        android:text="@string/icon_heart"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        />
+
 </LinearLayout>

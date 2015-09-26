@@ -1,12 +1,14 @@
 package com.muklasin.androiddeveloper;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 
@@ -26,7 +28,14 @@ public class MyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+
+        //Select TextView we want to change the Font
+        Button button = (Button) findViewById(R.id.like);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
+        //Set the typeface
+        button.setTypeface(font);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

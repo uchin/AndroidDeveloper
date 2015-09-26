@@ -11,4 +11,7 @@
 
     <!--ACTIONBAR-->
     <string name="action_search">Search</string>
+
+    <!--icon-->
+    <string name="icon_heart">&#xf1f6;</string>
 </resources>
