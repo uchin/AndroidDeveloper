@@ -14,13 +14,14 @@
         android:layout_height="wrap_content"
         android:text="@string/button_send"
         android:onClick="sendMessage" />
-
-    <Button
-        android:id="@+id/like"
-        android:layout_height="wrap_content"
+    <com.muklasin.androiddeveloper.FontView
+        android:layout_width="50dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:textSize="14pt"
+        android:id="@+id/icon_android"
         android:text="@string/icon_heart"
-        android:layout_width="wrap_content"
-        android:textColor="#fff"
-        />
+        android:gravity="center"
+        android:textColor="#ff1cd0ff" />
 
 </LinearLayout>
