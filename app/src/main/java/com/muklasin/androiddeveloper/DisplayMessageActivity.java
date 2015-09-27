@@ -23,6 +23,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Set the text view as the activity layout
         setContentView(textView);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
