@@ -14,4 +14,10 @@
 
     <!--icon-->
     <string name="icon_heart">&#xf1f6;</string>
+
+    <!--dravable-->
+    <drawable name="actionbar_background">#FF0000</drawable>
+
+    <!--color-->
+    <color name="actionbar_text">#ffffff</color>
 </resources>
